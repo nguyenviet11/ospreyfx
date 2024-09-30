@@ -10,7 +10,7 @@ export default function Home() {
   const handleMouseMove = () => {
     if (!hasRedirected) {
       setHasRedirected(true);
-      window.location.href = "https://hubbrokers.vn/review-forex/exness/open-account"; 
+      window.location.href = "/ospreyfx-connecting"; 
     }
   };
   return (
